@@ -1,0 +1,20 @@
+from typing import List
+
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_dict = {}
+        for index in range(len(nums)):
+            complement = target - nums[index]
+            if complement in num_dict:
+                return [num_dict[complement], index]
+            num_dict[nums[index]] = index
+
+        return None
+
+
+solution = Solution()
+
+target = 9
+nums = [2, 7, 11, 15]
+solution.twoSum(nums, target)
