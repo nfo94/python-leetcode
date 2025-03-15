@@ -4,7 +4,3 @@ class Solution:
         if x == x[::-1]:
             return True
         return False
-
-
-solution = Solution()
-print(solution.isPalindrome(10))

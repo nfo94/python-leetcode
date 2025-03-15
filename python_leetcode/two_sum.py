@@ -11,10 +11,3 @@ class Solution:
             num_dict[nums[index]] = index
 
         return None
-
-
-solution = Solution()
-
-target = 9
-nums = [2, 7, 11, 15]
-solution.twoSum(nums, target)
