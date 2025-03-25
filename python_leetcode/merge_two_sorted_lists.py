@@ -14,7 +14,7 @@ class Solution:
         dummy_node = ListNode()
         tail = dummy_node
 
-        while list1.next and list2.next:
+        while list1 and list2:
             if list1.val < list2.val:
                 tail.next = list1
                 list1 = list1.next
