@@ -30,6 +30,8 @@ class Solution:
         elif list2:
             tail.next = list2
 
+        return dummy_node.next
+
 
 test = Solution()
 test.mergeTwoLists([1, 2, 4], [1, 3, 5])
