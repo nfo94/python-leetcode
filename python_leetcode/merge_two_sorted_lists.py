@@ -33,5 +33,4 @@ class Solution:
         return dummy_node.next
 
 
-test = Solution()
-test.mergeTwoLists([1, 2, 4], [1, 3, 5])
+# LL not an array!
