@@ -33,4 +33,4 @@ class Solution:
         return dummy_node.next
 
 
-# LL not an array!
+# LL, not an array!
